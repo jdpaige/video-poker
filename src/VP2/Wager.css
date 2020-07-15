@@ -1,0 +1,30 @@
+.Wager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Wager-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Wager-amount {
+    margin-right: 10px;
+}
+.Wager-button {
+    cursor: pointer;
+    display: inline-block;
+    width: 50px;
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 3, 3);
+    /* border: 2px solid white; */
+    color: white;
+}
+
+.Wager-button:disabled {
+    background-color: rgb(248, 97, 97);
+}

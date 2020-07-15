@@ -1,0 +1,67 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.Card-held {
+    opacity: 0.65;
+}
+
+.Card-img {
+    width: 150px;
+}
+
+.Card-holdBtn {
+    cursor: pointer;
+    margin-top: 5px;
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    box-shadow: 10px 10px 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+.Card-holdBtn:active {
+    transform: translate(1px, 1px);
+    box-shadow: 10px 10px 20px -18px rgba(0, 0, 0, 0.75);
+}
+
+.Card-gameOverBtn {
+    margin-top: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    box-shadow: 10px 10px 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 1100px) {
+    .Card-img {
+        width: 120px;
+    }
+
+    .Card-holdBtn {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+
+    .Card-gameOverBtn {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Card-img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Card-img {
+        width: 90px;
+    }
+}
